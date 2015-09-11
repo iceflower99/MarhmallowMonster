@@ -26,7 +26,7 @@ public MarshmallowMonsters(String monsterName,int monsterEyes, int monsterNoses,
 }
 public String toString()
 {
-String monster= "This monster has " + monsterEyes+" eyes, and it's name is " + monsterName; 	
+String monster= "This monster has " + monsterEyes+" eyes, and it's name is " + monsterName + "it's hair length is "+ monsterHair; 	
 
 return monster;
 }
