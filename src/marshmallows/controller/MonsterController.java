@@ -20,6 +20,14 @@ public MonsterController()
 public void start()
 {
 myOutput.displayMonsterInfo(maddymonster.toString());
+askQuestions();
+myOutput.displayMonsterInfo("New Monster Info"+ maddymonster.toString());
+
+}
+
+private void askQuestions()
+{
 	
 }
+
 }
