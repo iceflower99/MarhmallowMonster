@@ -24,12 +24,13 @@ public class MonsterController
 		myOutput = new MarshmallowOutput();
 		maddymonster = new MarshmallowMonsters(name, eyes, noses, hair, legs, hasBellyButton);
 	}
-
+    
 	public void start()
 	{
 		myOutput.displayMonsterInfo(maddymonster.toString());
-		askQuestions();
-		myOutput.displayMonsterInfo("New Monster Info" + maddymonster.toString());
+		MakeUserMonster();
+		myOutput.displayMonsterInfo("New Monster Info" + userMonster.toString());
+		
 
 	}
 
