@@ -27,9 +27,10 @@ public class MonsterController
     
 	public void start()
 	{
-		myOutput.displayMonsterInfo(maddymonster.toString());
-		MakeUserMonster();
-		myOutput.displayMonsterInfo("New Monster Info" + userMonster.toString());
+		myOutput.displayMonsterConsole(maddymonster.toString());
+		myOutput.displayMonsterGUI(maddymonster.toString());
+		//MakeUserMonster();
+		myOutput.displayMonsterGUI("New Monster Info" + userMonster.toString());
 		
 
 	}
