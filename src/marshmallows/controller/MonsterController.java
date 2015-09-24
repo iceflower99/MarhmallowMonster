@@ -29,7 +29,7 @@ public class MonsterController
 	{
 		myOutput.displayMonsterConsole(maddymonster.toString());
 		myOutput.displayMonsterGUI(maddymonster.toString());
-		//MakeUserMonster();
+		MakeUserMonster();
 		myOutput.displayMonsterGUI("New Monster Info" + userMonster.toString());
 		
 
